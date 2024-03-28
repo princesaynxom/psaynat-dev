@@ -1,5 +1,7 @@
 [[_TOC_]]
 
+Onboarding
+
 # Access 
 
 ## Active Directory Group
@@ -13,21 +15,21 @@
 
 ### CICD 
 
-- `CI-CD.ENABLEMENT.UG` - group providing most of accesses for CICD team ✅
-- `MAP-CICD-ITPA-USERS.UG` - for checking out service account in ITPA `EMPLOYEE-ONLY` ✅
+- `CI-CD.ENABLEMENT.UG` - group providing most of accesses for CICD team 
+- `MAP-CICD-ITPA-USERS.UG` - for checking out service account in ITPA `EMPLOYEE-ONLY` 
 
 You can submit a request using [LAN Active Directory Group Access - IT Service Portal](https://emprod.service-now.com/itsp?id=sc_cat_item&sys_id=aa73c5761b1170108b18326ecc4bcb97).
 
 ## Email Distribution List
 
-🟡 Refer to #169488
-
-- [`GSC-EMIT-BANGKOK-DS-WEB-DEVELOPER`](mailto:GSC-EMIT-BANGKOK-DS-WEB-DEVELOPER@exxonmobil.com): BKK team - ask @princesaynxom to add
-- [`GSC-EMIT-BA-DS-WEB-DEVELOPER`](mailto:GSC-EMIT-BA-DS-WEB-DEVELOPER@exxonmobil.com): BKK team - ask @princesaynxom to add
+- [`GSC-EMIT-BANGKOK-DS-WEB-DEVELOPER`](mailto:GSC-EMIT-BANGKOK-DS-WEB-DEVELOPER@exxonmobil.com): BKK team 
+- [`GSC-EMIT-BA-DS-WEB-DEVELOPER`](mailto:GSC-EMIT-BA-DS-WEB-DEVELOPER@exxonmobil.com): BKK team 
 
 // do we still need this
 - [`GSC-EMIT-APPS-MA&P-D&DS-CICD`](mailto:GSC-EMIT-APPS-MA&P-D&DS-CICD@exxonmobil.com): containing East and West group below - no need to add
-- [`GSC-EMIT-APPS-MA&P-D&DS-CICD-EAST`](mailto:GSC-EMIT-APPS-MA&P-D&DS-CICD-EAST@exxonmobil.com): East team - ask @princesaynxom to add
+- [`GSC-EMIT-APPS-MA&P-D&DS-CICD-EAST`](mailto:GSC-EMIT-APPS-MA&P-D&DS-CICD-EAST@exxonmobil.com): East team 
+
+You can submit a request using [LAN Active Directory Group Access - IT Service Portal](https://emprod.service-now.com/itsp?id=sc_cat_item&sys_id=aa73c5761b1170108b18326ecc4bcb97).
 
 
 ## Zoom
@@ -55,8 +57,12 @@ You can search for channel and join in by yourself.
 
 ## Azure DevOps
 
-- [CICD Enablement Backlog items Board](https://emitdev.visualstudio.com/Cloud/_boards/board/t/DDS-CI%20CD%20Enablement/Backlog%20items) - this is our agile board ✅
-  - contact @<Sasuwan, Thapanee>  to add into [DDS-CI CD Enablement team](https://emitdev.visualstudio.com/Cloud/_settings/teams?subjectDescriptor=vssgp.Uy0xLTktMTU1MTM3NDI0NS0xNTQ2NjM5NjkyLTE5MDA5MDgzNTMtMjIxNjQxODg1My0zODI1MDQ5NjUtMS0zNjE4OTc0Njc0LTY3NDA0OTA5Mi0yMzYyNTA2NzIyLTM1MDU3NTc3MTE).
+- [Web Development Backlog items Board](https://dev.azure.com/EM-ITOps/Portfolio-SDD/_boards/board/t/Web%20Development/Stories) - this is our agile board 
+  - contact @princesaynxom to add into [DDS-CI CD Enablement team](https://emitdev.visualstudio.com/Cloud/_settings/teams?subjectDescriptor=vssgp.Uy0xLTktMTU1MTM3NDI0NS0xNTQ2NjM5NjkyLTE5MDA5MDgzNTMtMjIxNjQxODg1My0zODI1MDQ5NjUtMS0zNjE4OTc0Njc0LTY3NDA0OTA5Mi0yMzYyNTA2NzIyLTM1MDU3NTc3MTE).
+- [Team ADO Wiki](https://dev.azure.com/EM-ITOps/Portfolio-SDD/_wiki/wikis/Portfolio-ITOps.wiki/6312/CICD-Enablement-Wiki) - this is team ADO Wiki
+
+
+  // do we need this?
 - [CICD Enablement Azure Pipelines](https://dev.azure.com/xomDevS/CICD%20Enablement/_build) - this is our Azure Pipelines ✅
   - contact either @<Sasuwan, Thapanee> or @<E65FC941-0C0D-6CA1-8269-1B7E6D60348A>  to:
     - change [users](https://dev.azure.com/xomDevS/_settings/users) access level to `Basic`.
@@ -69,14 +75,22 @@ You can search for channel and join in by yourself.
 
 ### EMCloudAD tenant
 
-- [APPS_MAP_CICD_ENABLEMENT_DEV subscription](https://portal.azure.com/#@EMCloudAD.onmicrosoft.com/resource/subscriptions/abfc03d9-e6fe-4de1-9ad2-6c646403f01a/overview) with stranding _Contributor_ role ✅
+- [DEV_APPS_MAD](https://portal.azure.com/#@EMCloudAD.onmicrosoft.com/resource/subscriptions/42bdd48d-e826-42a4-b8de-c5e502f6b6d4/overview) with stranding _Contributor_ role
+- [PRD_APPS_MAD](https://portal.azure.com/#@EMCloudAD.onmicrosoft.com/resource/subscriptions/d671288b-e1ff-444e-9200-7db9d8d196e8/overview) with stranding _Contributor_ role
+
+If you cannot access or don't have the mentioned roles, make sure you are added into DEVSERVICES.AZURE.DEV.CONTRIBUTOR.UG and DEVSERVICES.AZURE.PROD.CONTRIBUTOR.UG
+
+
+- [APPS_MAP_CICD_ENABLEMENT_DEV subscription](https://portal.azure.com/#@EMCloudAD.onmicrosoft.com/resource/subscriptions/abfc03d9-e6fe-4de1-9ad2-6c646403f01a/overview) with stranding _Contributor_ role 
   - [Ability to PIM up Owner role in APPS_MAP_CICD_ENABLEMENT_DEV](https://portal.azure.com/#blade/Microsoft_Azure_PIMCommon/ResourceMenuBlade/MyActions/resourceId/b1d97ea4-eb97-477f-9002-f097345c2726/resourceType/subscription/provider/azurerbac/resourceDisplayName/APPS_MAP_CICD_ENABLEMENT_DEV/resourceExternalId/%2Fsubscriptions%2Fabfc03d9-e6fe-4de1-9ad2-6c646403f01a) - _For subscription custodians only_
-- [APPS_MAP_CICD_ENABLEMENT_PRD subscription](https://portal.azure.com/#@EMCloudAD.onmicrosoft.com/resource/subscriptions/e9c0eeda-69be-473e-9aed-5e2424f687a4/overview) ✅
-  - [Ability to PIM up Contributor role in APPS_MAP_CICD_ENABLEMENT_PRD](https://portal.azure.com/#blade/Microsoft_Azure_PIMCommon/ResourceMenuBlade/MyActions/resourceId/3c9e12ca-d318-4bf0-a773-8127e6a40da1/resourceType/subscription/provider/azurerbac/resourceDisplayName/APPS_MAP_CICD_ENABLEMENT_PRD/resourceExternalId/%2Fsubscriptions%2Fe9c0eeda-69be-473e-9aed-5e2424f687a4) ✅
+- [APPS_MAP_CICD_ENABLEMENT_PRD subscription](https://portal.azure.com/#@EMCloudAD.onmicrosoft.com/resource/subscriptions/e9c0eeda-69be-473e-9aed-5e2424f687a4/overview) 
+  - [Ability to PIM up Contributor role in APPS_MAP_CICD_ENABLEMENT_PRD](https://portal.azure.com/#blade/Microsoft_Azure_PIMCommon/ResourceMenuBlade/MyActions/resourceId/3c9e12ca-d318-4bf0-a773-8127e6a40da1/resourceType/subscription/provider/azurerbac/resourceDisplayName/APPS_MAP_CICD_ENABLEMENT_PRD/resourceExternalId/%2Fsubscriptions%2Fe9c0eeda-69be-473e-9aed-5e2424f687a4) 
 
 If you cannot access or don't have the mentioned roles, make sure you are added into `CI-CD.ENABLEMENT.UG`.
 
 #### App Registration ✅
+
+Support app registration for Web Dev team an be found at [Supportapp](https://ishareteam2.na.xom.com/sites/DevSvcs/Shared%20Documents/Web%20Dev/SupportApps.xlsx?web=1)
 
 In addition, you should be the owner of the following App Registration, at least:
 
@@ -93,6 +107,12 @@ This is service principal for your own learning and testing. If you need one, go
 `CICD_ENABLEMENT_DEV_<YOUR_FIRST_NAME>`
 
 Then ask @<E65FC941-0C0D-6CA1-8269-1B7E6D60348A> or @<AFC5DB11-07C9-4408-B122-C6E4360B1E92>  to add `Contributor` role assignment so it can create, modify, and delete resources in [APPS_MAP_CICD_ENABLEMENT_DEV](https://portal.azure.com/#@EMCloudAD.onmicrosoft.com/resource/subscriptions/abfc03d9-e6fe-4de1-9ad2-6c646403f01a/overview) subscription.
+
+## service ID
+- `NA\xsDDSWebDev` is Web Dev team Service ID
+
+## Service Now
+Add new member to group : `Developer Services-Web Delivery` and `Developer Services-CICD Pipeline`
 
 ## GitHub
 
@@ -131,21 +151,24 @@ The `@xomservices.com` account should be added to the following AzureAD groups:
 
 ### OpenShift 4
 
-- [cicd-dev - ARO N01](https://console-openshift-console.apps.aro-n01.xomres.cloud/project-details/ns/cicd-dev) ✅
-- [cicd-dev - OCP4 HN](https://console-openshift-console.apps.hn.ocp.na.xom.com/project-details/ns/cicd-dev) ✅
+- [ODS Web Dev - ARO-D N01](https://console-openshift-console.apps.dn01.exxonmobil.com/k8s/cluster/projects/ods-web-dev)
+- [ODS Web Dev - M-ROSA](https://console-openshift-console.apps.rmn01.vcpi.p1.openshiftapps.com/k8s/cluster/projects/ods-web-dev)
+
+- [cicd-dev - ARO N01](https://console-openshift-console.apps.aro-n01.xomres.cloud/project-details/ns/cicd-dev)
+- [cicd-dev - OCP4 HN](https://console-openshift-console.apps.hn.ocp.na.xom.com/project-details/ns/cicd-dev)
 
 Make sure you're added to `CI-CD.ENABLEMENT.UG` and `OCP.SSO.USERS.UG` (required for OCP4).
 
 ## Others
 
-- [Pluralsight](https://app.pluralsight.com/sso/exxonmobil) - for self-paced online training ✅
+- [Pluralsight](https://app.pluralsight.com/sso/exxonmobil) - for self-paced online training 
   - check out [How to request Pluralsight](https://itcc.xom.cloud/welcome-pluralsight/)
 - [Team calendar](https://www.teamcalendar.xom.cloud/calendar) - to see other's whereabout
   - you should see the following calendar:
-  - `CICD ENABLEMENT TEAM` - contact @thasasuwan to add you in ✅
-  - `DDS BKK TEAM TEAM` - contact Sira to add you in - Bangkok team member only ✅
+  - `ODS WMDD WEB&CICD TEAM TEAM` - contact @princasaynxom to add you in 
 
-## ITPA ✅
+
+## ITPA 
 `ON-PREMISE` `GME-ONLY` `EMPLOYEE-ONLY`
 
 1. Install and setup `Passcode` from the Software Center
@@ -161,6 +184,11 @@ If you can't see the `xsCICDEnablement` account, make sure you're added to `MAP-
 For `xsCICDPipeline`, the password is split into 2 half based on the groups below:
 - `ITPA-SPLIT-HALF-1.UG` - Apinya, Kanrawee
 - `ITPA-SPLIT-HALF-2.UG` - Poonnaphop, Prin, Thanida
+
+## Share point and OneNote
+- Team SharePoint can be found [HERE](https://ishareteam3.na.xom.com/sites/ODS/_layouts/15/start.aspx#/Shared%20Documents/Forms/AllItems.aspx)
+- Team OneNote can be found [HERE]()
+- Old team SharePoint can be found [HERE](https://ishareteam2.na.xom.com/sites/DevSvcs/_layouts/OneNote.aspx?id=%2Fsites%2FDevSvcs%2FShared%20Documents%2FWeb%20Dev%2FDDS_WebTeam_OneNote)
 
 # GME Setup
 
